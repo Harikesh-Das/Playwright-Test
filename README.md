@@ -1,4 +1,7 @@
 # Playwright Automation Project
+[![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 A Node.js project for experimenting with browser automation using Playwright. It includes a SmartWarehouse Create Sales order, a form automation test using a small SQLite student lookup example.
 
