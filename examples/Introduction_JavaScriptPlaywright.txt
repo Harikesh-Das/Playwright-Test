@@ -1,0 +1,64 @@
+Introduction(JavaSript)
+-------------------------------
+What is Playwright?
+Playwright is an open- source tool by Microsoft for automation web browser testing.
+Playwright is a framework for automating web browsers, enabling end-to-end testing. Beyond browser automation, playwright offers a dedicated API for testing and interacting with web APIS.
+Playwright is an open-source Node.js Library. node.js means is runtime environment for JavaScript.
+Node.js is an open-source , cross-platform javascript runtime environment that executes javascript code outside of  web browser.
+Open-source is nothing but anybody can contribute and they can customize the code.
+Playwright is available in the GitHub repository so we can get that code and we can customize according our requirement and also if we have a good knowledge in the development we can also contribute yourself and we can add some more features to the playwright along with existing features so that particular ting is called open source
+Features
+Cross browser: Chrome, edge, firefox, webkit, safari
+Cross-platfrom: Runs on windows, mac and Linux.
+Cross-Language: you can write test in Javascripts, typescript,Java, Python or C#
+Test mobile web : support mobile testing for chrome (Android) and safari IOS.
+API Testing: Playwright includes built-in API testing, allowing to test backend API together
+Automatic waiting (Auto-wait) : Playwright waits for element to be ready before performing actions, reducing test flakiness means unstability  .
+Handles Complex Elements : Easily interact with shadow Dom elements, which are tricky for other tools.
+Parallel execution: Support running tests simultaneously in multiple browser instance for faster execution.
+Built-in Reporters: Provides various report format like HTML, JSON, Junit and more support third party reporting tools like Allure.
+Inspector: Helps debug tests by showing click points and verifying locators in real time.
+Code Generation (code gen): The codegen tool records your actions and converts them into test scripts in any supported language.
+Tracing viewer : Captures screenshots, records videos, retries flaky tests, and logs steps automatically capture all the information to investigate the test failure.
+
+const {test, expect} = require('@playwright/test')
+import {test, expect} from '@playwright/test'
+
+
+JavaScript --> Dynamically typed language
+Let age=30
+Let name="john"
+age="thirty"
+
+TypeScript ---- Statically typed language
+Let age:number=30
+let name:string="john"
+age="thirty"
+
+Whatever the code we have return in typescript we can run the code in JavaScript using JavaScript similarly whatever code we have written in javascript we can run in typescript.
+whatever code you have written in JavaScript we can run in the typescript so even typescript code we cannot directly compile it actually we cannot directly run the typescript code we need to convert the typescript code into javascript then we can run the javascript to compiler is directly available only for javascript but not typescript compiler is there but that compiler will convert typescript into javascript
+
+
+How to create and Run playwright tests
+
+npx playwright test  runs all test on all browsers in headless mode
+npx playwright test MyTest.spec.js runs a specific test file
+npx playwright test MyTest.spec.js --project=chromium runs on specific browser
+npx playwright test MyTest.spec.js --project=chromium --headed
+npx playwright test MyTest.spec.js --project=chromium --headed --debug
+
+Locating Elements in playwright
+
+Property -> we can take any property any unique property of the element through which we can locate the element
+CSS -> Cascading style sheet C is a selector CSS also we can use locate the element and playwright will support. the combinations of CSS we can we can write to locate the elements and finally we can write X Path also will able to locate the elements
+XPath -> we can use to locate the element we can use either property it can be ID or it can be name or whatever we can use it to locate the element but that should be unique property for that element
+
+Locate single element
+await page.locator('locator').click()
+await page.click('locator');
+Inputbox
+await page.locator('locator').fill('value')
+await page.locator('locator').type('value')
+
+await page.fill('locator', 'value')
+await page.type('locator', 'value')

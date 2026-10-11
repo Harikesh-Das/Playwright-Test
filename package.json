@@ -1,0 +1,19 @@
+{
+  "name": "playwritetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demoblaze.spec.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.5.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "xlsx": "^0.18.5"
+  }
+}

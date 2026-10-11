@@ -1,0 +1,6 @@
+id,name,rollNumber,section,course,phone,email
+1,Person 1,21Q71A0501,II-CSE-A,Python,9876543210,person1@gmail.com
+2,Person 2,21Q71A0502,II-CSE-B,Java,9876543211,person2@gmail.com
+3,Person 3,21Q71A0503,II-CSE-C,SQL,9876543212,person3@gmail.com
+4,Person 4,21Q71A0504,II-CSE-A,JavaScript,9876543213,person4@gmail.com
+5,Person 5,21Q71A0505,II-CSE-B,Python,9876543214,person5@gmail.com
