@@ -217,3 +217,13 @@ The `form.spec.js` test automates interaction with the NPTEL Course Registration
 
 ![Form Responses](readme-assets/form-responses.png)
 
+## Author
+
+**Harikesh Das**
+
+GitHub: [Harikesh-Das](https://github.com/Harikesh-Das)
+
+## License
+
+No license has been specified. Contact the repository owner for permission to reuse or distribute the project.
+
